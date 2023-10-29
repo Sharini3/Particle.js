@@ -1,0 +1,50 @@
+#titleBar{
+    height: 50px;
+    margin-top: 0px;
+    display: flex;
+    
+}
+
+.header_links_container {
+    position: sticky;
+    margin-top: -5%;
+    margin-right: -0.5%;
+    margin-left: -1%;
+    margin-bottom: 50px;
+    -webkit-sticky: 80px;
+    height: 70px;
+    top: 0px;
+    background-color: rgb(161, 205, 217);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#navBar{
+    float: left;
+    padding: 0 50px;
+    height: 80px;
+}
+
+.navigation {
+    padding-top: 5px;
+}
+
+#navBar a{
+    height: 60px;
+    font-size: 120%;
+    border-radius: 0;
+    background-color: rgb(234, 141, 191);
+    color: black;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1.5px solid;
+}
+
+#navbar a:hover {
+    background-color: rgb(234, 141, 191);
+    color:#000;
+    overflow: hidden;
+    border-radius: 10px;
+}
