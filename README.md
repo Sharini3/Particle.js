@@ -1,2 +1,2 @@
 # Particle.js
-Javasccript code for Particle animation
+Javascript code for Particle animation
